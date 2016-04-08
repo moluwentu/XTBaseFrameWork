@@ -9,3 +9,4 @@
 #import "UILabel+Extension.h"
 #import "UIButton+Extension.h"
 #import "UIImage+Compress.h"
+#import "NSString+Identifier.h"
