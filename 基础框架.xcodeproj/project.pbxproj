@@ -13,8 +13,9 @@
 		6D07389C1CAC04A50027E2B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D07389A1CAC04A50027E2B9 /* Main.storyboard */; };
 		6D07389E1CAC04A50027E2B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D07389D1CAC04A50027E2B9 /* Assets.xcassets */; };
 		6D0738A11CAC04A50027E2B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D07389F1CAC04A50027E2B9 /* LaunchScreen.storyboard */; };
-		6D7DA2CC1CB7B63C0095BC31 /* NSString+Identifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7DA2CB1CB7B63C0095BC31 /* NSString+Identifier.m */; };
-		6D7DA2CF1CB7B6510095BC31 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7DA2CE1CB7B6510095BC31 /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6D7DA2CC1CB7B63C0095BC31 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		6D7DA2D41CB7B8880095BC31 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7DA2D11CB7B8880095BC31 /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6D7DA2D51CB7B8880095BC31 /* NSString+Identifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7DA2D31CB7B8880095BC31 /* NSString+Identifier.m */; };
 		6DCFC8791CACEAFD0052E8FA /* NetWorkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCFC8781CACEAFD0052E8FA /* NetWorkTools.m */; };
 		6DCFC8831CACF5E70052E8FA /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCFC8821CACF5E70052E8FA /* UILabel+Extension.m */; };
 		6DCFC8861CACF7680052E8FA /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCFC8851CACF7680052E8FA /* UIButton+Extension.m */; };
@@ -35,10 +36,10 @@
 		6D07389D1CAC04A50027E2B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D0738A01CAC04A50027E2B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D0738A21CAC04A50027E2B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6D7DA2CA1CB7B63C0095BC31 /* NSString+Identifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Identifier.h"; sourceTree = "<group>"; };
-		6D7DA2CB1CB7B63C0095BC31 /* NSString+Identifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Identifier.m"; sourceTree = "<group>"; };
-		6D7DA2CD1CB7B6510095BC31 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
-		6D7DA2CE1CB7B6510095BC31 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		6D7DA2D01CB7B8880095BC31 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		6D7DA2D11CB7B8880095BC31 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		6D7DA2D21CB7B8880095BC31 /* NSString+Identifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Identifier.h"; sourceTree = "<group>"; };
+		6D7DA2D31CB7B8880095BC31 /* NSString+Identifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Identifier.m"; sourceTree = "<group>"; };
 		6DCFC8771CACEAFD0052E8FA /* NetWorkTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkTools.h; sourceTree = "<group>"; };
 		6DCFC8781CACEAFD0052E8FA /* NetWorkTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkTools.m; sourceTree = "<group>"; };
 		6DCFC87B1CACF4940052E8FA /* HelpToolsPrefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelpToolsPrefix.pch; sourceTree = "<group>"; };
@@ -147,16 +148,16 @@
 			isa = PBXGroup;
 			children = (
 				6DCFC88A1CACFE520052E8FA /* CateGoryHeader.h */,
-				6D7DA2CD1CB7B6510095BC31 /* KeychainItemWrapper.h */,
-				6D7DA2CE1CB7B6510095BC31 /* KeychainItemWrapper.m */,
+				6D7DA2D01CB7B8880095BC31 /* KeychainItemWrapper.h */,
+				6D7DA2D11CB7B8880095BC31 /* KeychainItemWrapper.m */,
+				6D7DA2D21CB7B8880095BC31 /* NSString+Identifier.h */,
+				6D7DA2D31CB7B8880095BC31 /* NSString+Identifier.m */,
 				6DCFC8811CACF5E70052E8FA /* UILabel+Extension.h */,
 				6DCFC8821CACF5E70052E8FA /* UILabel+Extension.m */,
 				6DCFC8841CACF7680052E8FA /* UIButton+Extension.h */,
 				6DCFC8851CACF7680052E8FA /* UIButton+Extension.m */,
 				6DCFC8871CACFA3A0052E8FA /* UIImage+Compress.h */,
 				6DCFC8881CACFA3A0052E8FA /* UIImage+Compress.m */,
-				6D7DA2CA1CB7B63C0095BC31 /* NSString+Identifier.h */,
-				6D7DA2CB1CB7B63C0095BC31 /* NSString+Identifier.m */,
 			);
 			path = CategoryTools;
 			sourceTree = "<group>";
@@ -282,15 +283,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D7DA2D51CB7B8880095BC31 /* NSString+Identifier.m in Sources */,
 				6DCFC8791CACEAFD0052E8FA /* NetWorkTools.m in Sources */,
 				6DCFC8861CACF7680052E8FA /* UIButton+Extension.m in Sources */,
 				6D0738991CAC04A50027E2B9 /* ViewController.m in Sources */,
 				6D0738961CAC04A50027E2B9 /* AppDelegate.m in Sources */,
 				6DCFC8891CACFA3A0052E8FA /* UIImage+Compress.m in Sources */,
 				6DCFC8831CACF5E70052E8FA /* UILabel+Extension.m in Sources */,
-				6D7DA2CC1CB7B63C0095BC31 /* NSString+Identifier.m in Sources */,
+				6D7DA2CC1CB7B63C0095BC31 /* (null) in Sources */,
 				6D0738931CAC04A50027E2B9 /* main.m in Sources */,
-				6D7DA2CF1CB7B6510095BC31 /* KeychainItemWrapper.m in Sources */,
+				6D7DA2D41CB7B8880095BC31 /* KeychainItemWrapper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
