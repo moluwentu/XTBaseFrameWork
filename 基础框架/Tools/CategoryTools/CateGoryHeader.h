@@ -10,3 +10,4 @@
 #import "UIButton+Extension.h"
 #import "UIImage+Compress.h"
 #import "NSString+Identifier.h"
+#import "UIButton+Repeat.h"
