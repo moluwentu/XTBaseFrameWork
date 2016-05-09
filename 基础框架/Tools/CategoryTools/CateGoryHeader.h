@@ -11,3 +11,4 @@
 #import "UIImage+Compress.h"
 #import "NSString+Identifier.h"
 #import "UIButton+Repeat.h"
+#import "UIGestureRecognizer+block.h"

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6343EA4E1CD2FE3500F04B71 /* UIButton+Repeat.m in Sources */ = {isa = PBXBuildFile; fileRef = 6343EA4D1CD2FE3500F04B71 /* UIButton+Repeat.m */; };
+		63FE8E441CE09B7100772D3E /* UIGestureRecognizer+block.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FE8E431CE09B7100772D3E /* UIGestureRecognizer+block.m */; };
 		6D0738931CAC04A50027E2B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0738921CAC04A50027E2B9 /* main.m */; };
 		6D0738961CAC04A50027E2B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0738951CAC04A50027E2B9 /* AppDelegate.m */; };
 		6D0738991CAC04A50027E2B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0738981CAC04A50027E2B9 /* ViewController.m */; };
@@ -29,6 +30,8 @@
 		4FD7F1C40FC3D1D1862E2E6C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		6343EA4C1CD2FE3500F04B71 /* UIButton+Repeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Repeat.h"; sourceTree = "<group>"; };
 		6343EA4D1CD2FE3500F04B71 /* UIButton+Repeat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Repeat.m"; sourceTree = "<group>"; };
+		63FE8E421CE09B7100772D3E /* UIGestureRecognizer+block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+block.h"; sourceTree = "<group>"; };
+		63FE8E431CE09B7100772D3E /* UIGestureRecognizer+block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+block.m"; sourceTree = "<group>"; };
 		6D07388E1CAC04A50027E2B9 /* 基础框架.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "基础框架.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D0738921CAC04A50027E2B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6D0738941CAC04A50027E2B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -163,6 +166,8 @@
 				6DCFC8881CACFA3A0052E8FA /* UIImage+Compress.m */,
 				6343EA4C1CD2FE3500F04B71 /* UIButton+Repeat.h */,
 				6343EA4D1CD2FE3500F04B71 /* UIButton+Repeat.m */,
+				63FE8E421CE09B7100772D3E /* UIGestureRecognizer+block.h */,
+				63FE8E431CE09B7100772D3E /* UIGestureRecognizer+block.m */,
 			);
 			path = CategoryTools;
 			sourceTree = "<group>";
@@ -289,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6343EA4E1CD2FE3500F04B71 /* UIButton+Repeat.m in Sources */,
+				63FE8E441CE09B7100772D3E /* UIGestureRecognizer+block.m in Sources */,
 				6D7DA2D51CB7B8880095BC31 /* NSString+Identifier.m in Sources */,
 				6DCFC8791CACEAFD0052E8FA /* NetWorkTools.m in Sources */,
 				6DCFC8861CACF7680052E8FA /* UIButton+Extension.m in Sources */,
