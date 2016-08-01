@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6309DC4B1D2CB53700AC2DBD /* NSString+Regex.m in Sources */ = {isa = PBXBuildFile; fileRef = 6309DC4A1D2CB53700AC2DBD /* NSString+Regex.m */; };
+		6343EA4E1CD2FE3500F04B71 /* UIButton+Repeat.m in Sources */ = {isa = PBXBuildFile; fileRef = 6343EA4D1CD2FE3500F04B71 /* UIButton+Repeat.m */; };
+		63FE8E441CE09B7100772D3E /* UIGestureRecognizer+block.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FE8E431CE09B7100772D3E /* UIGestureRecognizer+block.m */; };
+		63FEC5601D260DF1009A85A4 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FEC55F1D260DF1009A85A4 /* NSString+MD5.m */; };
 		6D0738931CAC04A50027E2B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0738921CAC04A50027E2B9 /* main.m */; };
 		6D0738961CAC04A50027E2B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0738951CAC04A50027E2B9 /* AppDelegate.m */; };
 		6D0738991CAC04A50027E2B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0738981CAC04A50027E2B9 /* ViewController.m */; };
@@ -24,6 +28,14 @@
 /* Begin PBXFileReference section */
 		22942759A06561DAB0136BDE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FD7F1C40FC3D1D1862E2E6C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6309DC491D2CB53700AC2DBD /* NSString+Regex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Regex.h"; sourceTree = "<group>"; };
+		6309DC4A1D2CB53700AC2DBD /* NSString+Regex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Regex.m"; sourceTree = "<group>"; };
+		6343EA4C1CD2FE3500F04B71 /* UIButton+Repeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Repeat.h"; sourceTree = "<group>"; };
+		6343EA4D1CD2FE3500F04B71 /* UIButton+Repeat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Repeat.m"; sourceTree = "<group>"; };
+		63FE8E421CE09B7100772D3E /* UIGestureRecognizer+block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+block.h"; sourceTree = "<group>"; };
+		63FE8E431CE09B7100772D3E /* UIGestureRecognizer+block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+block.m"; sourceTree = "<group>"; };
+		63FEC55E1D260DF1009A85A4 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		63FEC55F1D260DF1009A85A4 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
 		6D07388E1CAC04A50027E2B9 /* 基础框架.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "基础框架.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D0738921CAC04A50027E2B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6D0738941CAC04A50027E2B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -76,6 +88,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		63FEC55A1D260D4B009A85A4 /* HelpTools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HelpTools;
+			sourceTree = "<group>";
+		};
 		6D0738851CAC04A50027E2B9 = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +142,7 @@
 		6DCFC8751CACEAF00052E8FA /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				63FEC55A1D260D4B009A85A4 /* HelpTools */,
 				6DCFC87C1CACF4FC0052E8FA /* CategoryTools */,
 				6DCFC8761CACEAF00052E8FA /* NetWorkTools */,
 			);
@@ -148,6 +168,14 @@
 				6DCFC8851CACF7680052E8FA /* UIButton+Extension.m */,
 				6DCFC8871CACFA3A0052E8FA /* UIImage+Compress.h */,
 				6DCFC8881CACFA3A0052E8FA /* UIImage+Compress.m */,
+				6343EA4C1CD2FE3500F04B71 /* UIButton+Repeat.h */,
+				6343EA4D1CD2FE3500F04B71 /* UIButton+Repeat.m */,
+				63FE8E421CE09B7100772D3E /* UIGestureRecognizer+block.h */,
+				63FE8E431CE09B7100772D3E /* UIGestureRecognizer+block.m */,
+				63FEC55E1D260DF1009A85A4 /* NSString+MD5.h */,
+				63FEC55F1D260DF1009A85A4 /* NSString+MD5.m */,
+				6309DC491D2CB53700AC2DBD /* NSString+Regex.h */,
+				6309DC4A1D2CB53700AC2DBD /* NSString+Regex.m */,
 			);
 			path = CategoryTools;
 			sourceTree = "<group>";
@@ -275,8 +303,10 @@
 			files = (
 				6DCFC8791CACEAFD0052E8FA /* NetWorkTools.m in Sources */,
 				6DCFC8861CACF7680052E8FA /* UIButton+Extension.m in Sources */,
+				6309DC4B1D2CB53700AC2DBD /* NSString+Regex.m in Sources */,
 				6D0738991CAC04A50027E2B9 /* ViewController.m in Sources */,
 				6D0738961CAC04A50027E2B9 /* AppDelegate.m in Sources */,
+				63FEC5601D260DF1009A85A4 /* NSString+MD5.m in Sources */,
 				6DCFC8891CACFA3A0052E8FA /* UIImage+Compress.m in Sources */,
 				6DCFC8831CACF5E70052E8FA /* UILabel+Extension.m in Sources */,
 				6D7DA2CC1CB7B63C0095BC31 /* (null) in Sources */,
