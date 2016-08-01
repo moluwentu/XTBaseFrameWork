@@ -8,4 +8,6 @@
 
 #import "UILabel+Extension.h"
 #import "UIButton+Extension.h"
+#import "UIButton+Repeat.h"
+#import "UIGestureRecognizer+block.h"
 #import "UIImage+Compress.h"
