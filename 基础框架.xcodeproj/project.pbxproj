@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6309DC4B1D2CB53700AC2DBD /* NSString+Regex.m in Sources */ = {isa = PBXBuildFile; fileRef = 6309DC4A1D2CB53700AC2DBD /* NSString+Regex.m */; };
-		6343EA4E1CD2FE3500F04B71 /* UIButton+Repeat.m in Sources */ = {isa = PBXBuildFile; fileRef = 6343EA4D1CD2FE3500F04B71 /* UIButton+Repeat.m */; };
-		63FE8E441CE09B7100772D3E /* UIGestureRecognizer+block.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FE8E431CE09B7100772D3E /* UIGestureRecognizer+block.m */; };
+		6338FD6D1D5B066800079D54 /* UIView+Unit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6338FD6C1D5B066800079D54 /* UIView+Unit.m */; };
 		63FEC5601D260DF1009A85A4 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FEC55F1D260DF1009A85A4 /* NSString+MD5.m */; };
 		6D0738931CAC04A50027E2B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0738921CAC04A50027E2B9 /* main.m */; };
 		6D0738961CAC04A50027E2B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0738951CAC04A50027E2B9 /* AppDelegate.m */; };
@@ -30,6 +29,8 @@
 		4FD7F1C40FC3D1D1862E2E6C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		6309DC491D2CB53700AC2DBD /* NSString+Regex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Regex.h"; sourceTree = "<group>"; };
 		6309DC4A1D2CB53700AC2DBD /* NSString+Regex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Regex.m"; sourceTree = "<group>"; };
+		6338FD6B1D5B066800079D54 /* UIView+Unit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Unit.h"; sourceTree = "<group>"; };
+		6338FD6C1D5B066800079D54 /* UIView+Unit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Unit.m"; sourceTree = "<group>"; };
 		6343EA4C1CD2FE3500F04B71 /* UIButton+Repeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Repeat.h"; sourceTree = "<group>"; };
 		6343EA4D1CD2FE3500F04B71 /* UIButton+Repeat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Repeat.m"; sourceTree = "<group>"; };
 		63FE8E421CE09B7100772D3E /* UIGestureRecognizer+block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+block.h"; sourceTree = "<group>"; };
@@ -162,6 +163,8 @@
 			isa = PBXGroup;
 			children = (
 				6DCFC88A1CACFE520052E8FA /* CateGoryHeader.h */,
+				6338FD6B1D5B066800079D54 /* UIView+Unit.h */,
+				6338FD6C1D5B066800079D54 /* UIView+Unit.m */,
 				6DCFC8811CACF5E70052E8FA /* UILabel+Extension.h */,
 				6DCFC8821CACF5E70052E8FA /* UILabel+Extension.m */,
 				6DCFC8841CACF7680052E8FA /* UIButton+Extension.h */,
@@ -309,6 +312,7 @@
 				63FEC5601D260DF1009A85A4 /* NSString+MD5.m in Sources */,
 				6DCFC8891CACFA3A0052E8FA /* UIImage+Compress.m in Sources */,
 				6DCFC8831CACF5E70052E8FA /* UILabel+Extension.m in Sources */,
+				6338FD6D1D5B066800079D54 /* UIView+Unit.m in Sources */,
 				6D7DA2CC1CB7B63C0095BC31 /* (null) in Sources */,
 				6D0738931CAC04A50027E2B9 /* main.m in Sources */,
 			);
