@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6309DC4B1D2CB53700AC2DBD /* NSString+Regex.m in Sources */ = {isa = PBXBuildFile; fileRef = 6309DC4A1D2CB53700AC2DBD /* NSString+Regex.m */; };
+		6327D3821D9A1F9B00207BC3 /* UIView+LineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6327D3811D9A1F9B00207BC3 /* UIView+LineView.m */; };
+		6327D3851D9A235900207BC3 /* UIColor+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 6327D3841D9A235900207BC3 /* UIColor+Category.m */; };
 		6338FD6D1D5B066800079D54 /* UIView+Unit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6338FD6C1D5B066800079D54 /* UIView+Unit.m */; };
 		63FEC5601D260DF1009A85A4 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FEC55F1D260DF1009A85A4 /* NSString+MD5.m */; };
 		6D0738931CAC04A50027E2B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0738921CAC04A50027E2B9 /* main.m */; };
@@ -29,6 +31,10 @@
 		4FD7F1C40FC3D1D1862E2E6C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		6309DC491D2CB53700AC2DBD /* NSString+Regex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Regex.h"; sourceTree = "<group>"; };
 		6309DC4A1D2CB53700AC2DBD /* NSString+Regex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Regex.m"; sourceTree = "<group>"; };
+		6327D3801D9A1F9B00207BC3 /* UIView+LineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LineView.h"; sourceTree = "<group>"; };
+		6327D3811D9A1F9B00207BC3 /* UIView+LineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LineView.m"; sourceTree = "<group>"; };
+		6327D3831D9A235900207BC3 /* UIColor+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Category.h"; sourceTree = "<group>"; };
+		6327D3841D9A235900207BC3 /* UIColor+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Category.m"; sourceTree = "<group>"; };
 		6338FD6B1D5B066800079D54 /* UIView+Unit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Unit.h"; sourceTree = "<group>"; };
 		6338FD6C1D5B066800079D54 /* UIView+Unit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Unit.m"; sourceTree = "<group>"; };
 		6343EA4C1CD2FE3500F04B71 /* UIButton+Repeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Repeat.h"; sourceTree = "<group>"; };
@@ -179,6 +185,10 @@
 				63FEC55F1D260DF1009A85A4 /* NSString+MD5.m */,
 				6309DC491D2CB53700AC2DBD /* NSString+Regex.h */,
 				6309DC4A1D2CB53700AC2DBD /* NSString+Regex.m */,
+				6327D3801D9A1F9B00207BC3 /* UIView+LineView.h */,
+				6327D3811D9A1F9B00207BC3 /* UIView+LineView.m */,
+				6327D3831D9A235900207BC3 /* UIColor+Category.h */,
+				6327D3841D9A235900207BC3 /* UIColor+Category.m */,
 			);
 			path = CategoryTools;
 			sourceTree = "<group>";
@@ -307,7 +317,9 @@
 				6DCFC8791CACEAFD0052E8FA /* NetWorkTools.m in Sources */,
 				6DCFC8861CACF7680052E8FA /* UIButton+Extension.m in Sources */,
 				6309DC4B1D2CB53700AC2DBD /* NSString+Regex.m in Sources */,
+				6327D3821D9A1F9B00207BC3 /* UIView+LineView.m in Sources */,
 				6D0738991CAC04A50027E2B9 /* ViewController.m in Sources */,
+				6327D3851D9A235900207BC3 /* UIColor+Category.m in Sources */,
 				6D0738961CAC04A50027E2B9 /* AppDelegate.m in Sources */,
 				63FEC5601D260DF1009A85A4 /* NSString+MD5.m in Sources */,
 				6DCFC8891CACFA3A0052E8FA /* UIImage+Compress.m in Sources */,
